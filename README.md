@@ -1,5 +1,3 @@
-<img src="https://r2cdn.perplexity.ai/pplx-full-logo-primary-dark%402x.png" class="logo" width="120"/>
-
 # Enhanced Offline RAG System for Document Retrieval and Question Answering
 
 This repository implements an Enhanced Offline Retrieval-Augmented Generation (RAG) system designed for secure, offline document processing and intelligent question answering. The system is built to handle sensitive documents in restricted environments, such as defence installations, and was developed during an internship at Defence Laboratory, Jodhpur (DRDO). It supports multiple document formats and provides features like anti-hallucination measures, query expansion, and a user-friendly Streamlit interface.
