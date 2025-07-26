@@ -1,0 +1,33 @@
+# Sample Document for RAG Testing
+
+## Introduction
+This is a sample document created for testing the Offline RAG system. 
+The system can process various types of documents including PDF, TXT, DOCX, MD, and CSV files.
+
+## Key Features
+1. **Local Processing**: All data stays on your machine
+2. **Multiple LLM Support**: Works with Ollama, GPT4All, and LlamaCpp
+3. **Persistent Storage**: Your documents and conversations are saved
+4. **Semantic Search**: Find relevant information quickly
+
+## How It Works
+The RAG (Retrieval-Augmented Generation) system:
+- Splits documents into chunks
+- Creates embeddings for semantic search
+- Retrieves relevant chunks for your questions
+- Generates answers using local LLMs
+
+## Example Questions You Can Ask
+- What are the key features of this system?
+- How does the RAG system work?
+- What types of documents are supported?
+- What makes this system offline?
+
+## Technical Details
+The system uses:
+- FAISS for vector storage
+- Sentence Transformers for embeddings
+- LangChain for orchestration
+- Streamlit for the user interface
+
+This is just a sample document. Upload your own documents to get started!
